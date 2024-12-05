@@ -19,7 +19,7 @@ function generatePoem(event) {
 
   let poemElement = document.querySelector("#poem");
   poemElement.classList.remove("hidden");
-  poemElement.innerHTML = `<div class="generating"> 🦴 fetiching 🦴  </div>`;
+  poemElement.innerHTML = `<div class="generating"> 🎾 Fetiching 🎾   </div>`;
 
   axios.get(apiURL).then(displayPoem);
 }
