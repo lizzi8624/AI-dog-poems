@@ -1,19 +1,28 @@
+@font-face {
+  font-family: "metalFont";
+  src: url("/Faceless-K7wel.ttf")
+}
+
 body {
-  background-color: #f6f5f9;
+  background-image: url("https://images2.alphacoders.com/125/1259217.jpg");
+  background-position: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
   margin: 120px auto;
   max-width: 600px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  font-weight: 800;
+  font-family: "metalFont";
+  font-weight: 10;
   text-align: center;
-  font-size: 36px;
+  font-size: 100px;
   line-height: 1.5;
-  color: #272044;
+  color: white
   margin: 0px;
 }
 
@@ -23,7 +32,7 @@ header {
 
 form {
   padding: 30px;
-  background-color: white;
+  background-color: rgba(18, 14, 31, 0.51);
   border-radius: 10px;
   display: flex;
   margin-bottom: 30px;
@@ -40,6 +49,7 @@ form {
 }
 
 .submit-button {
+  background: url("https://ih1.redbubble.net/image.2208236503.9810/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg");
   margin-left: 10px;
   background-color: rgb(51, 211, 211);
   color: white;
@@ -48,10 +58,12 @@ form {
   border-radius: 50px;
   padding: 14px 24px;
   font-size: 16px;
+
+  
 }
-.poem {
+.lyric {
   font-size: 14px;
-  background-color: white;
+  background-color: rgba(18, 14, 31, 0.51);
   padding: 20px;
   border-radius: 10px;
   line-height: 20px;
@@ -63,9 +75,8 @@ footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
-
 }
 
-a{
-  color:  rgb(51, 211, 211);
+a {
+  color: rgb(51, 211, 211);
 }
