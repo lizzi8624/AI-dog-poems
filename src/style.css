@@ -1,6 +1,6 @@
 @font-face {
   font-family: "metalFont";
-  src: url("/Faceless-K7wel.ttf")
+  src: url("/deachcore-lyrics-AI/Faceless-K7wel.ttf")
 }
 
 body {
@@ -22,7 +22,7 @@ h1 {
   text-align: center;
   font-size: 100px;
   line-height: 1.5;
-  color: white
+  color: white;
   margin: 0px;
 }
 
@@ -49,17 +49,15 @@ form {
 }
 
 .submit-button {
-  background: url("https://ih1.redbubble.net/image.2208236503.9810/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg");
-  margin-left: 10px;
-  background-color: rgb(51, 211, 211);
-  color: white;
-  border: none;
-  width: 150px;
-  border-radius: 50px;
-  padding: 14px 24px;
-  font-size: 16px;
+  background: url('');
+  background-position:center;
+  background-repeat:no-repeat;
+}
 
-  
+.photo-submit {border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
 }
 .lyric {
   font-size: 14px;
